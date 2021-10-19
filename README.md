@@ -46,7 +46,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="IMG_20211019_092530_013.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
           <b>Mateus Portela</b>
         </sub>

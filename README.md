@@ -29,7 +29,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="91168785.jpeg" width="100px;" alt="Foto do João Victor"/><br>
         <sub>
           <b>João Mokdcy</b>
         </sub>

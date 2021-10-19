@@ -20,6 +20,7 @@ Para usar <PDV_JAVA>, siga estas etapas:
 ```
 git clone https://github.com/MokdcyVictor/PDV_JAVA.git
 ```
+3. Compile o codigo pelo arquivo java "Main.java"
 
 ## 🤝 Colaboradores
 

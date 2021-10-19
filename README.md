@@ -1,6 +1,6 @@
 # PDV_JAVA
 
-<img src="bob.jpg" alt="exemplo imagem">
+<img src="Captura de tela de 2021-10-18 22-56-00.png" alt="exemplo imagem">
 
 > Nesse Ponto de venda o objetivo principal é que ele seja algo funcional e esteticamente bonito para melhor uso da empresa
 ### Ajustes

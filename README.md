@@ -1,8 +1,8 @@
 # PDV_JAVA
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="bob.jpg" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Nesse Ponto de venda o objetivo principal é que ele seja algo funcional e esteticamente bonito para melhor uso da empresa
 ### Ajustes
 
 O projeto ainda está em desenvolvimento e suas funções serão voltadas nas seguintes tarefas:
@@ -15,23 +15,11 @@ O projeto ainda está em desenvolvimento e suas funções serão voltadas nas se
 
 Para usar <PDV_JAVA>, siga estas etapas:
 
+1. abra o terminal do git bash 
+2. digite o seguinte codigo:
 ```
-
+git clone https://github.com/MokdcyVictor/PDV_JAVA.git
 ```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
-## 📫 Contribuindo para <nome_do_projeto>
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 🤝 Colaboradores
 

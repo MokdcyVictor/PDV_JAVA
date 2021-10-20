@@ -52,6 +52,14 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         </sub>
       </a>
     </td>
+<td align="center">
+      <a href="#">
+        <img src="IMG_20211019_092530_013.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Denis Dias</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 

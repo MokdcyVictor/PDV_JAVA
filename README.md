@@ -30,7 +30,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="91168785.jpeg" width="100px;" alt="Foto do João Victor"/><br>
+        <img src="https://avatars.githubusercontent.com/u/91168785?s=96&v=4" width="100px;" alt="Foto do João Victor"/><br>
         <sub>
           <b>João Mokdcy</b>
         </sub>
@@ -46,7 +46,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="IMG_20211019_092530_013.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://avatars.githubusercontent.com/u/92799541?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
           <b>Mateus Portela</b>
         </sub>

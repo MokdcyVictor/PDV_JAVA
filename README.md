@@ -38,7 +38,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="1234.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://avatars.githubusercontent.com/u/84674157?v=4" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
           <b>Lucas Cardoso</b>
         </sub>
@@ -47,7 +47,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     <td align="center">
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/92799541?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
+        <sub>No
           <b>Mateus Portela</b>
         </sub>
       </a>

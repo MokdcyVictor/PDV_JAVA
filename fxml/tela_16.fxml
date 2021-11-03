@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.2358" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <items>
+      <AnchorPane prefHeight="398.0" prefWidth="391.0" style="-fx-background-color: #801C58;">
+         <children>
+            <Button alignment="TOP_CENTER" layoutX="-1.0" layoutY="272.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: null;" text="Produtos" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="-2.0" layoutY="347.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: nul;" text="Registro" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="-2.0" layoutY="415.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: null;" text="Vendas" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="-2.0" layoutY="489.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: null;" text="Fluxo " textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="103.0" fitWidth="141.0" layoutX="94.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/image%2052.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="398.0" prefWidth="475.0" style="-fx-background-color: null;">
+         <children>
+            <ImageView fitHeight="71.0" fitWidth="97.0" layoutX="879.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/image%2020%20(Traced).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="87.0" fitWidth="71.0" layoutX="786.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Button alignment="BASELINE_LEFT" layoutX="729.0" layoutY="56.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="130.0" style="-fx-background-color: null;" text="Sair">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>

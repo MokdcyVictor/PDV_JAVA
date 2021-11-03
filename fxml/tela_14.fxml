@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -33,9 +34,9 @@
                   <Font size="21.0" />
                </font>
             </Button>
-            <ImageView fitHeight="144.0" fitWidth="197.0" layoutX="56.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../Downloads/tascunho.png" />
+                  <Image url="@../../../Downloads/trabalho%20victor%20(1).png" />
                </image>
             </ImageView>
          </children>
@@ -57,64 +58,33 @@
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="59.0" layoutY="133.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="156.0" style="-fx-background-color: #C7589A; -fx-border-color: #801C58;" text="Cliente " textFill="WHITE">
+            <Button layoutX="59.0" layoutY="133.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="156.0" style="-fx-background-color: #801C58; -fx-border-color: #801C58;" text="Cliente " textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button layoutX="232.0" layoutY="133.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="178.0" style="-fx-background-color: #801C58; -fx-border-color: #801C58;" text="Funcionario" textFill="WHITE">
+            <Button layoutX="232.0" layoutY="133.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="178.0" style="-fx-background-color: #C7589A; -fx-border-color: #801C58;" text="Funcionario" textFill="WHITE">
                <font>
                   <Font size="27.0" />
                </font>
             </Button>
             <ScrollPane hbarPolicy="NEVER" layoutX="59.0" layoutY="194.0" prefHeight="606.0" prefWidth="807.0">
                <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="607.0" prefWidth="805.0">
+                  <AnchorPane prefHeight="606.0" prefWidth="804.0">
                      <children>
-                        <Separator layoutY="111.0" prefHeight="0.0" prefWidth="791.0" />
-                        <Separator layoutX="-27.0" layoutY="241.0" prefHeight="7.0" prefWidth="1402.0" />
-                        <Separator layoutX="3.0" layoutY="377.0" prefHeight="17.0" prefWidth="1222.0" />
-                        <Separator layoutY="517.0" prefHeight="17.0" prefWidth="791.0" />
-                        <Button layoutX="661.0" layoutY="159.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="44.0" style="-fx-background-color: null;" />
-                        <Button layoutX="723.0" layoutY="160.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="45.0" style="-fx-background-color: null;">
-                           <graphic>
-                              <ImageView fitHeight="55.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../Downloads/edit.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                        </Button>
-                        <ImageView fitHeight="55.0" fitWidth="41.0" layoutX="731.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../../Downloads/edit.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="55.0" fitWidth="41.0" layoutX="731.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../../Downloads/edit.png" />
-                           </image>
-                        </ImageView>
-                        <Button layoutX="53.0" layoutY="54.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="130.0" style="-fx-background-color: #C7589A;" text="Adicionar" textFill="WHITE">
+                        <TextField layoutX="253.0" layoutY="141.0" prefHeight="25.0" prefWidth="322.0" />
+                        <TextField layoutX="253.0" layoutY="198.0" />
+                        <TextField layoutX="430.0" layoutY="198.0" />
+                        <Label layoutX="260.0" layoutY="118.0" text="Nome:" />
+                        <Label layoutX="253.0" layoutY="181.0" text="Telefone" />
+                        <Label layoutX="430.0" layoutY="181.0" text="CNPJ:" />
+                        <Button layoutX="630.0" layoutY="523.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="141.0" style="-fx-background-color: #801C58;" text="Editar" textFill="WHITE">
                            <font>
-                              <Font size="18.0" />
+                              <Font size="22.0" />
                            </font>
                         </Button>
-                        <Button layoutX="586.0" layoutY="170.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: red;" text="Demitir" textFill="WHITE">
-                           <font>
-                              <Font size="16.0" />
-                           </font>
-                        </Button>
-                        <Button layoutX="586.0" layoutY="293.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: red;" text="Demitir" textFill="WHITE">
-                           <font>
-                              <Font size="16.0" />
-                           </font>
-                        </Button>
-                        <Button layoutX="586.0" layoutY="434.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: red;" text="Demitir" textFill="WHITE">
-                           <font>
-                              <Font size="16.0" />
-                           </font>
-                        </Button>
+                        <TextField layoutX="253.0" layoutY="258.0" />
+                        <Label layoutX="253.0" layoutY="241.0" text="Razão Social:" />
                      </children>
                   </AnchorPane>
                </content>

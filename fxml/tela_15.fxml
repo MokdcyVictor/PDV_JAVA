@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.2358" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <items>
+      <AnchorPane prefHeight="398.0" prefWidth="391.0" style="-fx-background-color: #801C58;">
+         <children>
+            <Button layoutX="-1.0" layoutY="272.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="300.0" style="-fx-background-color: null;" text="Produtos" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="-2.0" layoutY="347.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="300.0" style="-fx-background-color: nul;" text="Registro" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="-2.0" layoutY="415.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="300.0" style="-fx-background-color: #C7589A;" text="Vendas" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="-2.0" layoutY="489.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="300.0" style="-fx-background-color: null;" text="Fluxo " textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/trabalho%20victor%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="398.0" prefWidth="475.0" style="-fx-background-color: null;">
+         <children>
+            <ImageView fitHeight="71.0" fitWidth="97.0" layoutX="879.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/image%2020%20(Traced).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="87.0" fitWidth="71.0" layoutX="786.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Button alignment="BASELINE_LEFT" layoutX="729.0" layoutY="56.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="130.0" style="-fx-background-color: null;" text="Sair">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Pane layoutX="14.0" layoutY="194.0" prefHeight="604.0" prefWidth="855.0" style="-fx-border-color: #801C58;">
+               <children>
+                  <ScrollPane hbarPolicy="NEVER" prefHeight="604.0" prefWidth="432.0">
+                     <content>
+                        <AnchorPane prefHeight="605.0" prefWidth="434.0" style="-fx-border-color: #801C58;">
+                           <children>
+                              <Separator layoutY="90.0" prefHeight="0.0" prefWidth="425.0" />
+                              <Separator layoutY="202.0" prefHeight="0.0" prefWidth="432.0" />
+                              <Separator layoutY="304.0" prefHeight="0.0" prefWidth="432.0" />
+                              <Separator layoutY="402.0" prefHeight="2.0" prefWidth="414.0" />
+                              <Separator layoutX="7.0" layoutY="508.0" prefHeight="0.0" prefWidth="417.0" />
+                              <Button layoutX="331.0" layoutY="121.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="44.0" style="-fx-background-color: null;">
+                                 <graphic>
+                                    <ImageView fitHeight="61.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Downloads/image%2051.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="331.0" layoutY="228.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="44.0" style="-fx-background-color: null;">
+                                 <graphic>
+                                    <ImageView fitHeight="61.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Downloads/image%2051.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="331.0" layoutY="329.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="44.0" style="-fx-background-color: null;">
+                                 <graphic>
+                                    <ImageView fitHeight="61.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Downloads/image%2051.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="331.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="44.0" style="-fx-background-color: null;">
+                                 <graphic>
+                                    <ImageView fitHeight="61.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Downloads/image%2051.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="331.0" layoutY="526.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="44.0" style="-fx-background-color: null;">
+                                 <graphic>
+                                    <ImageView fitHeight="61.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Downloads/image%2051.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="35.0" layoutY="31.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="43.0" style="-fx-background-color: #E69CD4;">
+                                 <graphic>
+                                    <ImageView fitHeight="33.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Downloads/+.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+                  <AnchorPane layoutX="430.0" minHeight="0.0" minWidth="0.0" prefHeight="604.0" prefWidth="425.0">
+                     <children>
+                        <TextField editable="false" layoutX="14.0" layoutY="130.0" prefHeight="25.0" prefWidth="160.0" />
+                        <ChoiceBox layoutX="194.0" layoutY="130.0" prefHeight="25.0" prefWidth="22.0" />
+                        <TextField editable="false" layoutX="255.0" layoutY="130.0" prefHeight="25.0" prefWidth="71.0" />
+                        <TextField editable="false" layoutX="20.0" layoutY="444.0" />
+                        <Label layoutX="20.0" layoutY="113.0" text="Preço" />
+                        <Label layoutX="196.0" layoutY="113.0" text="N°:" />
+                        <Label layoutX="255.0" layoutY="113.0" text="Qtd:" />
+                        <Label layoutX="20.0" layoutY="427.0" text="Total:" />
+                        <Button layoutX="255.0" layoutY="444.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="115.0" style="-fx-background-color: E69CD4;" text="Finalizar" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>

@@ -4,6 +4,8 @@
  */
 package com.discipulosdofabrizio.gui;
 
+import com.discipulosdofabrizio.app.Main;
+
 /**
  *
  * @author famil
@@ -38,6 +40,12 @@ public class Registro extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel1MouseClicked(evt);
+            }
+        });
+
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -56,7 +64,6 @@ public class Registro extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setBackground(null);
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/discipulosdofabrizio/gui/imagens/Group 2.png"))); // NOI18N
         jButton1.setAlignmentY(0.0F);
         jButton1.setBorder(null);
@@ -150,12 +157,17 @@ public class Registro extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        String[] args = null;
+        Main.main(args,1);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jPanel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPanel1MouseClicked
 
     /**
      * @param args the command line arguments
